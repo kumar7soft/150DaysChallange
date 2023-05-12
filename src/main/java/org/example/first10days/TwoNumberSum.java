@@ -21,33 +21,47 @@ package org.example.first10days;
  */
 
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+
 public class TwoNumberSum {
 
     public static void main(String[] args){
 
 
-        int[] res = twoSum(new int[]{2, 7, 11, 15}, 9);
+        int[] res = twoNumberSum(new int[]{2, 7, 11, 15}, 9);
         System.out.println(res[0]+"   "+res[1]);
 
     }
 
     //2,7,11,15 target : 9
+    //nums = [3,2,4], target = 6
     static public int[] twoSum(int[] nums, int target) {
 
-        int[] arr=new int[2];
-        int start=0;
-        int end=nums.length-1;
-        while(start<end){
-            if(target==nums[start]+nums[end]){
-                arr[0]=start;
-                arr[1]=end;
-            }else if(target > nums[start]+nums[end]){
-                start=start+1;
-            }else{
-                end=end-1;
+        HashSet<Integer> set = new HashSet();
+        for(int num:nums) {
+            int match =target-num;
+            if(set.contains(match)) {
+                return new int[] {match,num};
+            }else {
+                set.add(num);
             }
         }
-        return arr;
+
+        return new int[0];
     }
 
-}
+    static public int[] twoNumberSum(int[] nums,int target){
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for(int i=0;i<nums.length;i++){
+            int y = target - nums[i];
+            if(map.containsKey(y)){
+                return new int[] {i, map.get(y) };
+            }
+            map.put(nums[i],i);
+        }
+        return new int[]{-1,-1};
+    }
+    }
+
