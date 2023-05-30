@@ -12,7 +12,8 @@ public class RemovalOfDuplicationsFromSortedArray {
 
     public static void main(String[] args){
 
-        removeDuplicates(new int[] {1, 2, 2, 3, 4, 4, 4, 5, 5},9);
+        int i = removeDuplicates(new int[]{1, 2, 2, 3, 4, 4, 4, 5, 5}, 9);
+        System.out.println(i);
     }
 
     static int removeDuplicates(int arr[], int n)
