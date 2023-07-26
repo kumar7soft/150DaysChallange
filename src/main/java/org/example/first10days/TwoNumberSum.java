@@ -24,8 +24,6 @@ package org.example.first10days;
 public class TwoNumberSum {
 
     public static void main(String[] args){
-
-
         int[] res = twoSum(new int[]{2, 7, 11, 15}, 9);
         System.out.println(res[0]+"   "+res[1]);
 
