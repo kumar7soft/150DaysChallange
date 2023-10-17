@@ -1,0 +1,43 @@
+Topics should cover in Java :
+1.Multithreading and async process (Latest features in java which supports multithreading)
+2.String
+3.Java Memory management
+4.Java Garbage Collection
+5.Collection framework and real time use cases
+6.JVM architecture
+7.Java 8,11 and 20
+8.Exception Handling
+9.OOPS concepts with realtime usecases
+10. Abstraction and Inheritance
+
+SQL and NoSQL
+
+1.Brushup skills in Oracle DB which are required
+2.learn NOSQL DB's (Mongo DB)
+
+System Design :
+1.Complete LLD with Examples
+2.Complete HLD with Examples
+3.Design Patterns (Basic Design Patterns a developer should have )
+
+Springboot Microservices :
+
+1. Implement Springboot applications using microservices architecture
+a.Cloud design patterns
+b.Kafka
+c.Spring boot key topics (interceptor etc)
+
+Data Structures and Algorithms
+
+1.Complete Trees and Binary search Tree
+2.Complete all the topics mentioned in Geeks for geeks
+3. Solve atleast 3 problems a day
+
+Devops and Cloud
+1.Complete Docker and Kubernetes
+2.Implement the CICD
+3.AWS (Should have knowledge in minimum services )
+
+Automation Testing , API and Loan Testing
+
+Manual testing with Excel sheets
