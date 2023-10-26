@@ -1,0 +1,7 @@
+1 . New methods in String class
+isBlank,
+lines,
+strip,
+stripLeading,
+stripTrailing,
+repeat.

@@ -12,10 +12,10 @@ Topics should cover in Java :
 
 SQL and NoSQL
 
-1.Brushup skills in Oracle DB which are required
-2.learn NOSQL DB's (Mongo DB)
+1.Brush-up skills in Oracle DB which are required
+2.learn NOSQL DB's (MongoDB)
 
-System Design :
+System Design (In Progress):
 1.Complete LLD with Examples
 2.Complete HLD with Examples
 3.Design Patterns (Basic Design Patterns a developer should have )
@@ -27,8 +27,7 @@ a.Cloud design patterns
 b.Kafka
 c.Spring boot key topics (interceptor etc)
 
-Data Structures and Algorithms
-
+Data Structures and Algorithms(In Progress)
 1.Complete Trees and Binary search Tree
 2.Complete all the topics mentioned in Geeks for geeks
 3. Solve atleast 3 problems a day
@@ -41,3 +40,7 @@ Devops and Cloud
 Automation Testing , API and Loan Testing
 
 Manual testing with Excel sheets
+
+UI Development
+CSS,HTML,Javascript
+React
