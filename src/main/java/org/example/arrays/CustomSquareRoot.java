@@ -25,7 +25,6 @@ public class CustomSquareRoot {
         double right = x;
         double mid = (left + right) / 2;
         double epsilon = 1e-6; // Small value for precision
-
         while (Math.abs(mid * mid - x) > epsilon) {
             if (mid * mid < x) {
                 left = mid;

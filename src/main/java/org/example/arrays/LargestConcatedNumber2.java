@@ -7,7 +7,7 @@ public class LargestConcatedNumber2 {
 
     public static void main(String[] args) {
 
-            String result = largestConcatenatedNumber(new int[] {49,73,58,30,72,44,78,23 });
+            String result = largestConcatenatedNumber(new int[] {3,30,34,5,9 });
             System.out.println(result);
         }
 
